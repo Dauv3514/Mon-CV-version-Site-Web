@@ -1,0 +1,194 @@
+.parcours {
+
+  height : 2200px ;
+  width : 100% ; 
+  position : relative ;
+  padding : 80px 0 80px 0 ;
+  background : #e0b874 ;
+
+  
+h1 {
+
+  text-align : center ;
+  color : #110066;
+  padding-bottom : 40px ;
+  
+  }
+
+}
+
+.timeline {
+ 
+  position : relative ;
+  padding : 80px 0 80px 0 ;
+  
+}
+
+.ligne2 {
+
+  height : 6px ;
+  width : 50px ;
+  background : #110066 ;
+  margin : auto ;
+    
+} 
+  
+  
+.rond {
+  
+  width : 100px ;
+  height : 100px ;
+  border-radius : 50px ;
+  background : #249ac5 ;
+  position: absolute ;
+  border : 3px solid white ;
+  left : 50% ;
+  transform: translate(-50%) ;
+  display : flex ;
+  justify-content : center ;
+  align-items : center ;
+  font-size : 40px ;
+  
+  
+}
+  
+  .r1 {
+  position : absolute ;
+  top : 80px ;
+  }
+  
+  .r2 {
+  position : absolute ;
+  top : 386px ;    
+  }
+  
+  .r3 {
+  position : absolute ;
+  top : 692px ;       
+  }
+  
+  .r4 {
+  position : absolute ;
+  top : 1000px ;           
+  }
+
+  .r5 {
+  position : absolute ;
+  top : 1306px ;           
+  }
+
+  .r6 {
+  position : absolute ;
+  top : 1612px ;           
+  }
+
+
+  
+  .box {
+  
+  color : white ;
+  width : 400px ;
+  height : 200px ;
+  padding : 20px ;
+  border-radius : 4px ;
+  background :#249ac5 ;
+  box-shadow : 0 10px 15px white ;
+  position : relative ;
+  left : 50% ;
+  transform : translate(-50%) ;
+  
+  
+  }
+  
+  .b1 {
+  position : absolute ;
+  top : 80px ;
+  left :30% ;
+  
+  }
+  
+  .b2 {
+  position : absolute ;
+  top : 386px ;
+  left :70% ;
+  
+  }
+  
+  .b3 {
+  position : absolute ;
+  top : 692px ;
+  left :30% ;
+  
+  }
+  
+  .b4 {
+  position : absolute ;
+  top : 1000px ;
+  left :70% ;
+  
+  }
+
+  .b5 {
+  position : absolute ;
+  top : 1306px ;
+  left :30% ;
+    
+  }
+
+  .b6 {
+  position : absolute ;
+  top : 1612px ;
+  left :70% ;
+      
+  }
+  
+  .box h2 {
+  
+  text-align : center ;
+  text-transform : uppercase ;
+  font-size : 26px ;
+  
+  }
+  
+  
+  #logosex {
+  
+  height : 60px ;
+  width : 60px ;
+  
+  }
+  
+  .ligne5 {
+  
+  height : 1552px ;
+  width : 6px ;
+  margin : 0 auto ;
+  background : #249ac5 ;
+  
+  }
+  
+  
+  @media screen and (max-width : 1300px) {
+
+    .ligne5 {
+
+      position: relative ;
+      left : 240px ;
+
+    }
+
+    .rond {
+
+      left : calc(50% + 240px);
+
+    }
+
+    .box {
+
+      left : calc(50% - 50px ) ;
+    
+    }
+    
+  }
+  
+  

@@ -1,0 +1,293 @@
+.competences {
+background : #249ac5 ;
+height : 1000px ;
+
+
+h1 {
+
+padding-top : 80px ;
+padding-bottom : 40px ;
+text-align : center ;
+color : #FFF ;
+
+}
+
+h2 {
+
+text-align : center ;
+color : #FFF ;
+
+}
+
+}
+
+.container-fluid {
+
+background : #249ac5 ;
+
+
+}
+
+
+
+
+
+.ligne {
+
+height : 6px ;
+width : 50px ;
+background : #FFF ;
+margin : auto ;
+
+}
+
+.valentin {
+
+display: flex;
+justify-content : center ;
+height : auto ;
+width : auto ;
+
+img {
+
+height : 58% ;
+width : 58% ;
+
+}
+
+}
+
+.recentrer {
+
+display : flex ;
+justify-content : center ;
+
+
+}
+
+.barre {
+
+display : flex ;
+flex-direction : column ;
+
+}
+
+
+
+.photoshop {
+
+display : flex ;
+margin-top : 20px ;
+
+img {
+
+height : 50px ;
+width : 50px ;
+
+}
+}
+
+
+.html {
+
+display : flex ;
+margin-top : 20px ;
+	
+img {
+	
+height : 50px ;
+width : 50px ;
+	
+}
+}
+
+.css {
+
+display : flex ;
+margin-top : 20px ;
+		
+img {
+		
+height : 50px ;
+width : 50px ;
+		
+}
+}
+	
+.javascript {
+
+display : flex ;
+margin-top : 20px ;
+
+			
+img {
+			
+height : 50px ;
+width : 50px ;
+			
+}
+}
+
+.wordpress {
+
+display : flex ;
+margin-top : 20px ;
+			
+img {
+			
+height : 50px ;
+width : 50px ;
+			
+}
+}
+
+
+
+//myskills
+
+.progress-1  {
+	width: 360px;
+	height: 36px;
+	background: #FFF;
+	border-radius: 50px;
+	overflow: hidden;
+
+	margin-left : 30px ;
+
+  }
+
+  .progress-2  {
+	width: 360px;
+	height: 36px;
+	background: #FFF;
+	border-radius: 50px;
+	overflow: hidden;
+
+	margin-left : 30px ;
+  }
+
+  .progress-3  {
+	width: 360px;
+	height: 36px;
+	background: #FFF;
+	border-radius: 50px;
+	overflow: hidden;
+
+	margin-left : 30px ;
+  }
+
+  .progress-4  {
+	width: 360px;
+	height: 36px;
+	background: #FFF;
+	border-radius: 50px;
+	overflow: hidden;
+
+	margin-left : 30px ;
+  }
+
+  .progress-5  {
+	width: 360px;
+	height: 36px;
+	background: #FFF;
+	border-radius: 50px;
+	overflow: hidden;
+	margin-left : 30px ;
+  }
+
+ 
+
+
+  .progress-bar-1 {
+	width: 80%;
+	height: 100%;
+	background: #e54c21 ;
+	border-radius: 100px;
+	transform: translateX(-100%);
+	animation-duration: 3s;
+	animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  .progress-bar-2 {
+	width: 70%;
+	height: 100%;
+	background: #000000 ;
+	border-radius: 100px;
+	transform: translateX(-100%);
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite ;
+  }
+
+  .progress-bar-3 {
+	width: 30%;
+	height: 100%;
+	background: #f0db4f;
+	border-radius: 100px;
+	transform: translateX(-100%);
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+  }
+
+  .progress-bar-4 {
+	width: 60%;
+	height: 100%;
+	background: #62beda ;
+	border-radius: 100px;
+	transform: translateX(-100%);
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+  }
+
+  .progress-bar-5 {
+	width: 45%;
+	height: 100%;
+	background: #2a4997 ;
+	border-radius: 100px;
+	transform: translateX(-100%);
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+	from {
+	  transform: translateX(-100%);
+	}
+  
+	to {
+	  transform: translateX(0);
+	}
+  }
+
+
+.encours {
+
+display : flex ;
+justify-content : center ;
+
+h3 {
+
+text-align : center ;
+
+}
+
+}
+
+.technos {
+
+p {
+
+margin-top : 30px ;
+font-weight : bold ;
+color : black ;
+font-size : 14px ;
+
+
+}
+}
+
+

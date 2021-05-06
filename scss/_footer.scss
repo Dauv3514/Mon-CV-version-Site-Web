@@ -1,0 +1,71 @@
+.footer {
+
+background : #249ac5 ;
+height : 200px ;
+width : 100% ;
+display : flex ;
+
+}
+
+.contactval {
+
+display : flex ;
+justify-content : space-evenly ; 
+padding-top : 50px ;
+width : 70% ;
+
+
+img {
+
+
+height : 60px ;
+width : 60px ;
+
+}
+
+p { 
+
+color : white ;
+font-weight : bold ;
+padding-top : 20px ;
+
+}
+
+}
+
+.telephone {
+
+text-align : center ;
+
+}
+
+.linkedin {
+
+text-align : center ;
+    
+}
+
+.mail {
+
+text-align : center ;
+    
+}
+
+
+
+
+.remonter {
+
+width : 24% ;
+padding-top : 70px ;
+
+img {
+  
+width : 60px ;
+height : 60px ;
+float : right ;
+        
+}
+
+}
+  

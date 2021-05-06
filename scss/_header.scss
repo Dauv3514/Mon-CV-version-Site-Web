@@ -1,0 +1,166 @@
+.header {
+
+height : 100vh ;
+width : 100% ;
+background-image: url(images/code1.png);
+background-size : cover ;
+
+}
+
+
+
+.navbar {
+
+    width : 100% ;
+    background : black ;
+    opacity : 0.7 ;
+    height: 88px ;
+    position : fixed ;
+
+    nav {
+
+    text-align : center ;
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;
+    flex-direction : row;
+    }
+
+    nav ul {
+    
+    width : 50% ;
+    
+    }
+
+    ul {
+    
+    width : 600px ;
+    display : flex ;
+    justify-content : space-evenly ;
+    align-items : center ;
+
+    }
+
+    a {
+   
+    text-decoration : none ;
+    color : #FFF ;  
+    font-size : 20px ;
+    
+    }
+
+    a:hover {
+
+    color : #e0b874 ;
+    }
+
+    button {
+    
+    position : absolute ;
+    top : 16px ;
+    right : 100px ;
+    background : #e0b874 ;
+    color : black ;
+    font-weight : bold ;
+    border-radius : 30px ;
+    overflow : hidden ;
+    line-height: 1;
+    padding : 12px 32px ;
+    box-shadow: 4px 4px 4px white;
+
+    }
+
+}
+
+
+
+.presentation {
+
+height : 100% ;
+width : 100% ;
+padding-top : 150px ;
+
+h1 {
+
+font-size : 48px ;
+display : flex ;
+justify-content : center ;
+padding-top : 10px ;
+color : white ;
+width : 100%;
+ 
+}
+
+h2 {
+
+font-size : 36px ;
+display : flex ;
+justify-content : center ;
+color : white ;
+padding-bottom : 37px ;
+
+}
+
+}
+
+
+
+
+.val {
+
+height : auto ;
+width : auto ;
+display : flex;
+justify-content : center ;
+
+img {
+
+height : 60% ;
+width : 60% ;
+opacity : 0 ;
+transform : translateY(-30px) ;
+animation : apparition 0.4s 1.6s ease-out forwards ;
+
+}
+
+@media screen and (min-width : 600px) {
+
+    .img {
+        height : 70% ;
+        width : 70% ;
+    }
+    
+  }
+
+}
+
+
+
+
+.logos {
+
+height : 60px ;
+width : 100% ;
+margin-bottom : 20px ;
+display : flex ;
+justify-content : space-evenly ;
+
+img {
+
+height : 60px ;
+width : 60px ;
+opacity : 0 ;
+transform : translateX(-30px) ;
+animation : apparition 0.8s 1s ease-out forwards ;
+
+}
+
+}
+
+@keyframes apparition {
+    100% {
+        opacity : 1 ;
+        transform : none ;
+    }
+}
+
