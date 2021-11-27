@@ -4,7 +4,8 @@ const animtext = document.querySelector ('.autotext');
 
 new Typewriter (animtext, {
 
-     deleteSpeed : 60
+    deleteSpeed : 60
+    
 })
 
 .typeString ('< Valentin Dauvier ')
@@ -13,13 +14,11 @@ new Typewriter (animtext, {
 .start()
 
 
-
-
 const animtext2 = document.querySelector ('.autotext2');
 
 new Typewriter (animtext2, {
     
-     deleteSpeed : 60
+    deleteSpeed : 60
 })
 
 .typeString ('< est à la recherche d\'un stage en tant que Développeur Front-End>')

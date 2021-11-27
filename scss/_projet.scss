@@ -5,7 +5,7 @@
 
 padding-top : 80px ;
 background : #249ac5 ;
-height : 1500px ;
+height : 1880px ;
     
 h1 {
     
@@ -38,6 +38,11 @@ padding-top : 200px ;
 height : 500px ;
 width : 500px ;
 
+span {
+
+font-size: 20px;
+
+}
 
 img {
 
@@ -45,14 +50,9 @@ height : 100% ;
 width : 100% ;
 box-shadow:4px 4px 6px 0 white;
 
-
 }
 
-
-
 }
-
-
 
 .ligne3 {
 
@@ -61,7 +61,13 @@ width : 50px ;
 background : #FFF ;
 margin : auto ;
 
-    
+}
+
+.projetecole {
+
+    display: flex;
+    justify-content: center;
+
 }
 
 

@@ -102,7 +102,6 @@
 }
 
 .val {
-  
   height: auto;
   width: auto;
   display: -webkit-box;
@@ -114,8 +113,8 @@
 }
 
 .val img {
-  height: 46.6%;
-  width: 46.6%;
+  height: 46.5%;
+  width: 46.5%;
   opacity: 0;
   -webkit-transform: translateY(-30px);
           transform: translateY(-30px);
@@ -125,8 +124,8 @@
 
 @media screen and (min-width: 600px) {
   .val .img {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
   }
 }
 
@@ -300,14 +299,14 @@ body {
           flex-direction: column;
 }
 
-.photoshop {
+.vuejs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
 }
 
-.photoshop img {
+.vuejs img {
   height: 50px;
   width: 50px;
 }
@@ -436,7 +435,7 @@ body {
 }
 
 .progress-bar-3 {
-  width: 30%;
+  width: 40%;
   height: 100%;
   background: #f0db4f;
   border-radius: 100px;
@@ -466,9 +465,9 @@ body {
 }
 
 .progress-bar-5 {
-  width: 45%;
+  width: 30%;
   height: 100%;
-  background: #2a4997;
+  background: #41B883;
   border-radius: 100px;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
@@ -502,24 +501,21 @@ body {
   }
 }
 
-.encours {
+.avenir {
+  margin-top: 40px;
+}
+
+.autrestechnos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.encours h3 {
-  text-align: center;
 }
 
 .technos p {
   margin-top: 30px;
   font-weight: bold;
-  color: black;
-  font-size: 14px;
+  color: #FFF;
+  font-size: 16px;
 }
 
 .parcours {
@@ -685,7 +681,7 @@ body {
 .container-fluid {
   padding-top: 80px;
   background: #249ac5;
-  height: 1500px;
+  height: 1880px;
 }
 
 .container-fluid h1 {
@@ -715,6 +711,10 @@ body {
   width: 500px;
 }
 
+.projet span {
+  font-size: 20px;
+}
+
 .projet img {
   height: 100%;
   width: 100%;
@@ -729,10 +729,19 @@ body {
   margin: auto;
 }
 
+.projetecole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .citation {
   padding-top: 150px;
   height: 600px;
-  background-image: url("images/vrai.png");
+  background-image: url("images/whilenotjob2.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -755,7 +764,7 @@ body {
 
 .apropos {
   background: #e0b874;
-  height: 1000px;
+  height: 1070px;
   width: 100%;
 }
 
@@ -788,35 +797,16 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding-top: 100px;
-}
-
-.sport {
-  height: 180px;
-  width: 120px;
-}
-
-.sport img {
-  height: 100%;
-  width: 100%;
+  padding-top: 30px;
 }
 
 .digital {
-  height: 180px;
-  width: 120px;
+  height: 500px;
+  width: 500px;
+  margin-left: 40px;
 }
 
 .digital img {
-  height: 100%;
-  width: 100%;
-}
-
-.cinema {
-  height: 180px;
-  width: 120px;
-}
-
-.cinema img {
   height: 100%;
   width: 100%;
 }
