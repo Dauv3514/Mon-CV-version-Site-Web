@@ -738,6 +738,10 @@ body {
           justify-content: center;
 }
 
+.videoprojet {
+  margin-top: 140px;
+}
+
 .citation {
   padding-top: 150px;
   height: 600px;
